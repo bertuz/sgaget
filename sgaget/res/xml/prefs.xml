@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:summary="Informazioni personali"
+            android:title="Informazioni personali" >
+        <EditTextPreference
+                android:key="email"
+                android:summary=""
+                android:title="Email" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:summary="Preferenze riguardo spostamenti e dati"
+            android:title="Dati" >
+        <SwitchPreference
+            android:key="at_once"
+            android:title="Invio immediato"
+            android:summary="Invia automaticamente spostamenti completati (può usare la rete telefonica)"/>
+        <Preference
+                android:key="deleteDB"
+                android:title="Cancella tutto"
+                android:summary="cancella tutti i dati relativi agli spostamenti effettuati"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:summary="Informazioni"
+            android:title="Informazioni" >
+        <Preference
+                android:key="about"
+                android:title="Sgàget!"
+                android:summary="Versione 0.9 ~ 2013 ISF Modena"/>
+    </PreferenceCategory>
+</PreferenceScreen>

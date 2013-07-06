@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp">
+    <RadioGroup
+            android:id="@+id/act_complete_track_f3_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true">
+        <RadioButton android:id="@+id/act_complete_track_f3_btn1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                android:text="@string/transportation_type_bycicle"/>
+        <RadioButton android:id="@+id/act_complete_track_f3_btn2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/transportation_type_feet"/>
+        <RadioButton android:id="@+id/act_complete_track_f3_btn3"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/transportation_type_bus"/>
+        <RadioButton android:id="@+id/act_complete_track_f3_btn4"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/transportation_type_car"/>
+    </RadioGroup>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/act_complete_track_f3_btn_altro"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text=""/>
+        <EditText
+                android:id="@+id/act_complete_track_f3_txt_altro"
+                android:hint="altro"
+                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:singleLine="true"
+                android:layout_toRightOf="@id/act_complete_track_f3_btn_altro"/>
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

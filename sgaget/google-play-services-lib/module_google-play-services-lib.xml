@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_google-play-services-lib" default="compile.module.google-play-services-lib">
+  <dirname property="module.google-play-services-lib.basedir" file="${ant.file.module_google-play-services-lib}"/>
+  
+  <property name="module.jdk.home.google-play-services-lib" value="${jdk.home.android_4.2.2_platform}"/>
+  <property name="module.jdk.bin.google-play-services-lib" value="${jdk.bin.android_4.2.2_platform}"/>
+  <property name="module.jdk.classpath.google-play-services-lib" value="jdk.classpath.android_4.2.2_platform"/>
+  
+  <property name="compiler.args.google-play-services-lib" value="${compiler.args}"/>
+  
+  <property name="google-play-services-lib.output.dir" value="${module.google-play-services-lib.basedir}/../out/production/google-play-services-lib"/>
+  <property name="google-play-services-lib.testoutput.dir" value="${module.google-play-services-lib.basedir}/../out/test/google-play-services-lib"/>
+  
+  <path id="google-play-services-lib.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="google-play-services-lib.module.production.classpath">
+    <path refid="${module.jdk.classpath.google-play-services-lib}"/>
+  </path>
+  
+  <path id="google-play-services-lib.runtime.production.module.classpath">
+    <pathelement location="${google-play-services-lib.output.dir}"/>
+  </path>
+  
+  <path id="google-play-services-lib.module.classpath">
+    <path refid="${module.jdk.classpath.google-play-services-lib}"/>
+    <pathelement location="${google-play-services-lib.output.dir}"/>
+  </path>
+  
+  <path id="google-play-services-lib.runtime.module.classpath">
+    <pathelement location="${google-play-services-lib.testoutput.dir}"/>
+    <pathelement location="${google-play-services-lib.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.google-play-services-lib">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.google-play-services-lib">
+    <patternset refid="excluded.from.module.google-play-services-lib"/>
+  </patternset>
+  
+  <path id="google-play-services-lib.module.sourcepath">
+    <dirset dir="${module.google-play-services-lib.basedir}">
+      <include name="gen"/>
+      <include name="src"/>
+    </dirset>
+    <dirset dir="${module.google-play-services-lib.basedir}">
+      <include name="gen"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.google-play-services-lib" depends="compile.module.google-play-services-lib.production,compile.module.google-play-services-lib.tests" description="Compile module google-play-services-lib"/>
+  
+  <target name="compile.module.google-play-services-lib.production" depends="register.custom.compilers" description="Compile module google-play-services-lib; production classes">
+    <mkdir dir="${google-play-services-lib.output.dir}"/>
+    <javac2 destdir="${google-play-services-lib.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.google-play-services-lib}/javac">
+      <compilerarg line="${compiler.args.google-play-services-lib}"/>
+      <bootclasspath refid="google-play-services-lib.module.bootclasspath"/>
+      <classpath refid="google-play-services-lib.module.production.classpath"/>
+      <src refid="google-play-services-lib.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.google-play-services-lib"/>
+    </javac2>
+    
+    <copy todir="${google-play-services-lib.output.dir}">
+      <fileset dir="${module.google-play-services-lib.basedir}/gen">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.google-play-services-lib.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.google-play-services-lib.basedir}/gen">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.google-play-services-lib.tests" depends="register.custom.compilers,compile.module.google-play-services-lib.production" description="compile module google-play-services-lib; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.google-play-services-lib" description="cleanup module">
+    <delete dir="${google-play-services-lib.output.dir}"/>
+    <delete dir="${google-play-services-lib.testoutput.dir}"/>
+  </target>
+</project>

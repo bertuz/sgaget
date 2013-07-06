@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sgàget!</string>
+    <string name="app_name2">Sgàget!</string>
+    <string name="home_last_hotpoint_default">Pronto al tracciamento</string>
+    <string name="home_start_stop_default">Traccia spostamento</string>
+    <string name="home_start_stop_end">Termina spostamento</string>
+    <string name="home_start_stop_endind">Terminando...</string>
+    <string name="act_statistics_startPoint">Luogo di partenza</string>
+    <string name="act_statistics_endPoint">Luogo d\'arrivo</string>
+    <string name="transportation_type_bycicle">Bicicletta</string>
+    <string name="transportation_type_feet">Piedi</string>
+    <string name="transportation_type_bus">Autobus</string>
+    <string name="transportation_type_car">Autovettura</string>
+    <string name="transportation_type_other">__other_option__</string>
+    <string name="help_hotpoints_description">XI punti di interesse sono i luoghi che ISF Modena ritiene di particolare interesse per lo studio della mobilità urbana.\n\n
+        Sgàget traccia, misura gli spostamenti ed effettua le statistiche in base a questi punti, che possono variare a seconda dei bisogni di informazione di un particolare periodo, o in base a nuovi punti strategici individuati che permettono una maggior comprensione dell\'attuale mobilità della città.\n\n
+        I nuovi punti sono caricati automaticamente dall\'app ogni giorno, senza che tu debba fare nulla.\n\nSemplicemente ricordati di aiutarci in questa impresa, schiacciando \"traccia tragitto\" ogni volta che ti sposti in città ;)</string>
+</resources>

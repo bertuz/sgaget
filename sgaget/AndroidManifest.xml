@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.altervista.bertuz83.sgaget"
+      android:versionCode="1"
+      android:versionName="pre release">
+    <uses-sdk android:minSdkVersion="10"/>
+
+    <!-- Effetto xenofobia. Proteggo TUTTO con il mio package name, affinché niente di estraneo - pardon - che non conosco possa utilizzare ciò che ho scritto.-->
+    <permission android:name="org.altervista.bertuz83.sgaget"/>
+    <permission
+            android:name="org.altervista.bertuz83.sgaget.permission.MAPS_RECEIVE"
+            android:protectionLevel="signature"/>
+
+    <uses-permission android:name="org.altervista.bertuz83.sgaget.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="org.altervista.bertuz83.sgaget" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature
+            android:glEsVersion="0x00020000"
+            android:required="true"/>
+
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/icon"
+                 android:name="org.altervista.bertuz83.sgaget.helper.MyApplication"
+                 android:theme="@style/Theme.Sherlock.Light">
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyC1BpifU08LhcXj0_Mlxn5qsTEU24uZehI"/>
+
+        <activity android:name=".ActWelcome"
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.Sherlock.Light.NoActionBar">
+        </activity>
+        <activity android:name=".ActHome"
+                android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActTrackingCompleted"/>
+        <activity android:name=".ActCompleteTrack"/>
+        <activity android:name=".ActPreferences"
+                  android:theme="@style/PreferencesTheme"/>
+        <activity android:name=".ActCharts"/>
+
+        <service android:name=".service.ServiceTracking"/>
+    </application>
+</manifest>

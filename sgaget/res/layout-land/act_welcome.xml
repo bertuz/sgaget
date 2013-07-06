@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:background="@drawable/background_repeat"
+            >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation= "vertical"
+    android:layout_width= "fill_parent"
+    android:layout_height="wrap_content">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation= "horizontal"
+    android:layout_width= "fill_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp">
+    <ImageView
+        android:layout_gravity="left"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="20dp"
+        android:id="@+id/welcomeLogo"
+        android:src="@drawable/logo_welcome"/>
+    <TextView
+            android:id="@+id/testo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benvenut*! \nAbbiamo bisogno di un paio di informazioni prima di iniziare."
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:layout_toRightOf="@id/welcomeLogo"/>
+    <LinearLayout
+            android:focusable="true" android:focusableInTouchMode="true"
+            android:layout_width="0px" android:layout_height="0px"
+            android:id="@+id/loseFocus"/>
+    <TextView
+            android:id="@+id/labelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/welcomeLogo"
+            android:layout_below="@id/testo"
+            android:layout_marginTop="10dp"
+            android:text="Email:"/>
+    <EditText
+            android:id="@+id/main_mail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="email"
+            android:layout_toRightOf="@id/welcomeLogo"
+            android:layout_below="@id/labelName"
+            android:inputType="textEmailAddress"
+            />
+    <Button
+            android:id="@+id/main_inizia"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Inizia"
+            android:layout_marginTop="20dp"
+            android:onClick="iniziaClicked"
+            android:focusable="true"
+            android:layout_below="@id/welcomeLogo"
+            android:background="@drawable/grad_green"
+            style="@style/ButtonText"/>
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>

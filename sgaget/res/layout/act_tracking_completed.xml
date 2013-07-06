@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_repeat"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_weight="0">
+        <ImageView
+                android:id="@+id/cars"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/car"/>
+        <TextView
+                android:text="Tragitto completato"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Scegli come completare lo spostamento: "/>
+    <RadioGroup
+            android:id="@+id/tracking_completed_radioComplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
+        <RadioButton
+                android:id="@+id/tacking_completed_button_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Completa ora i dati"
+                android:layout_weight="0"
+                android:checked="true"/>
+        <RadioButton
+                android:id="@+id/tacking_completed_button_later"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Completa più tardi"
+                android:layout_weight="0"
+                android:layout_gravity="left"/>
+    </RadioGroup>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    <Button
+            android:id="@+id/tracking_completed_complete"
+            android:layout_width="275dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom"
+            android:text="Procedi"
+            android:drawableStart="@drawable/pencil_white"
+            android:background="@drawable/grad_green"
+            style="@style/ButtonTextBlackNoMargin"
+            android:layout_weight="0"/>
+    <Button
+            android:id="@+id/tracking_completed_delete_tracking"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom"
+            android:text="Scarta"
+            android:drawableStart="@drawable/bin_white"
+            android:background="@drawable/grad_red"
+            style="@style/ButtonText"
+            android:layout_weight="0"
+            android:onClick="trashTracking"/>
+</LinearLayout>

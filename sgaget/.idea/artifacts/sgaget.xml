@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="sgaget">
+    <output-path>$PROJECT_DIR$/out/artifacts/sgaget</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="includeSystemProGuardCfgFile" value="true" />
+        <option name="keyAlias" value="sgaget" />
+        <option name="keyPassword" value="bXVpdG9lc3BhbnRhZDA=" />
+        <option name="keyStorePassword" value="bXVpdG9lc3BhbnRhZDA=" />
+        <option name="keyStoreUrl" value="file://$PROJECT_DIR$/../sgagetKeys.keystore" />
+        <option name="proGuardCfgFileUrl" value="file://" />
+        <option name="signingMode" value="RELEASE_SIGNED" />
+      </options>
+    </properties>
+    <root id="archive" name="sgaget.apk">
+      <element id="android-final-package" facet="sgaget/android/Android" />
+    </root>
+  </artifact>
+</component>

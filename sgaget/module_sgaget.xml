@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_sgaget" default="compile.module.sgaget">
+  <dirname property="module.sgaget.basedir" file="${ant.file.module_sgaget}"/>
+  
+  <property name="module.jdk.home.sgaget" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.sgaget" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.sgaget" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.sgaget" value="${compiler.args}"/>
+  
+  <property name="sgaget.output.dir" value="${module.sgaget.basedir}/out/production/sgaget"/>
+  <property name="sgaget.testoutput.dir" value="${module.sgaget.basedir}/out/test/sgaget"/>
+  
+  <path id="sgaget.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="sgaget.module.production.classpath">
+    <path refid="${module.jdk.classpath.sgaget}"/>
+    <pathelement location="${google-play-services-lib.output.dir}"/>
+    <path refid="library.google-play-services.classpath"/>
+    <path refid="library.achartengine-1.1.0.classpath"/>
+    <path refid="library.android-support-v4.classpath"/>
+    <pathelement location="${actionbarsherlock.output.dir}"/>
+  </path>
+  
+  <path id="sgaget.runtime.production.module.classpath">
+    <path refid="google-play-services-lib.runtime.production.module.classpath"/>
+    <path refid="library.google-play-services.classpath"/>
+    <pathelement location="${sgaget.output.dir}"/>
+    <path refid="library.achartengine-1.1.0.classpath"/>
+    <path refid="library.android-support-v4.classpath"/>
+    <path refid="actionbarsherlock.runtime.production.module.classpath"/>
+  </path>
+  
+  <path id="sgaget.module.classpath">
+    <path refid="${module.jdk.classpath.sgaget}"/>
+    <pathelement location="${google-play-services-lib.testoutput.dir}"/>
+    <pathelement location="${google-play-services-lib.output.dir}"/>
+    <path refid="library.google-play-services.classpath"/>
+    <pathelement location="${sgaget.output.dir}"/>
+    <path refid="library.achartengine-1.1.0.classpath"/>
+    <path refid="library.android-support-v4.classpath"/>
+    <pathelement location="${actionbarsherlock.testoutput.dir}"/>
+    <pathelement location="${actionbarsherlock.output.dir}"/>
+  </path>
+  
+  <path id="sgaget.runtime.module.classpath">
+    <path refid="google-play-services-lib.runtime.module.classpath"/>
+    <path refid="library.google-play-services.classpath"/>
+    <pathelement location="${sgaget.testoutput.dir}"/>
+    <pathelement location="${sgaget.output.dir}"/>
+    <path refid="library.achartengine-1.1.0.classpath"/>
+    <path refid="library.android-support-v4.classpath"/>
+    <path refid="actionbarsherlock.runtime.module.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.sgaget">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.sgaget">
+    <patternset refid="excluded.from.module.sgaget"/>
+  </patternset>
+  
+  <path id="sgaget.module.sourcepath">
+    <dirset dir="${module.sgaget.basedir}">
+      <include name="src"/>
+    </dirset>
+    <dirset dir="${module.sgaget.basedir}">
+      <include name="gen"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.sgaget" depends="compile.module.sgaget.production,compile.module.sgaget.tests" description="Compile module sgaget"/>
+  
+  <target name="compile.module.sgaget.production" depends="register.custom.compilers,compile.module.google-play-services-lib,compile.module.actionbarsherlock" description="Compile module sgaget; production classes">
+    <mkdir dir="${sgaget.output.dir}"/>
+    <javac2 destdir="${sgaget.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.sgaget}/javac">
+      <compilerarg line="${compiler.args.sgaget}"/>
+      <bootclasspath refid="sgaget.module.bootclasspath"/>
+      <classpath refid="sgaget.module.production.classpath"/>
+      <src refid="sgaget.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.sgaget"/>
+    </javac2>
+    
+    <copy todir="${sgaget.output.dir}">
+      <fileset dir="${module.sgaget.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.sgaget.basedir}/gen">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.sgaget.tests" depends="register.custom.compilers,compile.module.sgaget.production" description="compile module sgaget; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.sgaget" description="cleanup module">
+    <delete dir="${sgaget.output.dir}"/>
+    <delete dir="${sgaget.testoutput.dir}"/>
+  </target>
+</project>

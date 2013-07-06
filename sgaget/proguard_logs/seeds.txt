@@ -1,0 +1,77 @@
+android.support.v4.app.Fragment: Fragment()
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.Watson: Watson()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.app.SherlockActivity: SherlockActivity()
+com.actionbarsherlock.app.SherlockFragmentActivity: SherlockFragmentActivity()
+com.actionbarsherlock.app.SherlockPreferenceActivity: SherlockPreferenceActivity()
+com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup: NineViewGroup(android.content.Context)
+com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup: NineViewGroup(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.nineoldandroids.view.NineViewGroup: NineViewGroup(android.content.Context,android.util.AttributeSet,int)
+com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout
+com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout: NineFrameLayout(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout
+com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout: NineLinearLayout(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.view.menu.ActionMenuItemView
+com.actionbarsherlock.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context)
+com.actionbarsherlock.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.view.menu.ActionMenuItemView: ActionMenuItemView(android.content.Context,android.util.AttributeSet,int)
+com.actionbarsherlock.internal.view.menu.ActionMenuView
+com.actionbarsherlock.internal.view.menu.ActionMenuView: ActionMenuView(android.content.Context)
+com.actionbarsherlock.internal.view.menu.ActionMenuView: ActionMenuView(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.view.menu.ListMenuItemView
+com.actionbarsherlock.internal.view.menu.ListMenuItemView: ListMenuItemView(android.content.Context,android.util.AttributeSet,int)
+com.actionbarsherlock.internal.view.menu.ListMenuItemView: ListMenuItemView(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context)
+com.actionbarsherlock.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.widget.AbsActionBarView: AbsActionBarView(android.content.Context,android.util.AttributeSet,int)
+com.actionbarsherlock.internal.widget.ActionBarContainer
+com.actionbarsherlock.internal.widget.ActionBarContainer: ActionBarContainer(android.content.Context)
+com.actionbarsherlock.internal.widget.ActionBarContainer: ActionBarContainer(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.widget.ActionBarContextView
+com.actionbarsherlock.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context)
+com.actionbarsherlock.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.widget.ActionBarContextView: ActionBarContextView(android.content.Context,android.util.AttributeSet,int)
+com.actionbarsherlock.internal.widget.ActionBarView
+com.actionbarsherlock.internal.widget.ActionBarView: ActionBarView(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.widget.ActionBarView$HomeView
+com.actionbarsherlock.internal.widget.ActionBarView$HomeView: ActionBarView$HomeView(android.content.Context)
+com.actionbarsherlock.internal.widget.ActionBarView$HomeView: ActionBarView$HomeView(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.widget.CapitalizingButton
+com.actionbarsherlock.internal.widget.CapitalizingButton: CapitalizingButton(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.widget.IcsLinearLayout
+com.actionbarsherlock.internal.widget.IcsLinearLayout: IcsLinearLayout(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView
+com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView: ScrollingTabContainerView$TabView(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.internal.widget.TabsLinearLayout
+com.actionbarsherlock.internal.widget.TabsLinearLayout: TabsLinearLayout(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.widget.SearchView$SearchAutoComplete
+com.actionbarsherlock.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context)
+com.actionbarsherlock.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context,android.util.AttributeSet)
+com.actionbarsherlock.widget.SearchView$SearchAutoComplete: SearchView$SearchAutoComplete(android.content.Context,android.util.AttributeSet,int)
+com.google.android.gms.internal.i: java.lang.Object next()
+com.google.android.gms.maps.SupportMapFragment
+com.google.android.gms.maps.SupportMapFragment: SupportMapFragment()
+org.altervista.bertuz83.sgaget.ActCharts
+org.altervista.bertuz83.sgaget.ActCharts: ActCharts()
+org.altervista.bertuz83.sgaget.ActCompleteTrack
+org.altervista.bertuz83.sgaget.ActCompleteTrack: ActCompleteTrack()
+org.altervista.bertuz83.sgaget.ActCompleteTrack: void next(android.view.View)
+org.altervista.bertuz83.sgaget.ActCompleteTrack: void goTo(android.view.View)
+org.altervista.bertuz83.sgaget.ActHome
+org.altervista.bertuz83.sgaget.ActHome: ActHome()
+org.altervista.bertuz83.sgaget.ActHome: void goIsfWebsite(android.view.View)
+org.altervista.bertuz83.sgaget.ActPreferences
+org.altervista.bertuz83.sgaget.ActPreferences: ActPreferences()
+org.altervista.bertuz83.sgaget.ActTrackingCompleted
+org.altervista.bertuz83.sgaget.ActTrackingCompleted: ActTrackingCompleted()
+org.altervista.bertuz83.sgaget.ActTrackingCompleted: void trashTracking(android.view.View)
+org.altervista.bertuz83.sgaget.ActWelcome
+org.altervista.bertuz83.sgaget.ActWelcome: ActWelcome()
+org.altervista.bertuz83.sgaget.ActWelcome: void iniziaClicked(android.view.View)
+org.altervista.bertuz83.sgaget.helper.MyApplication
+org.altervista.bertuz83.sgaget.helper.MyApplication: MyApplication()
+org.altervista.bertuz83.sgaget.service.ServiceTracking
+org.altervista.bertuz83.sgaget.service.ServiceTracking: ServiceTracking()

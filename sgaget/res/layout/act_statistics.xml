@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="20dp"
+              android:paddingRight="20dp"
+              android:paddingTop="10dp"
+              android:background="@drawable/background_repeat">
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0">
+        <TextView
+            android:id="@+id/act_statistics_label_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Da"
+            android:textSize="20sp"
+            android:layout_alignBottom="@+id/act_statistics_spinner_from"/>
+        <Spinner
+                android:id="@+id/act_statistics_spinner_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+                android:prompt="@string/act_statistics_startPoint"
+                android:layout_toRightOf="@id/act_statistics_label_from"/>
+        <TextView
+                android:id="@+id/act_statistics_label_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="A"
+                android:layout_toLeftOf="@+id/act_statistics_spinner_to"
+                android:layout_alignBottom="@+id/act_statistics_spinner_to"/>
+        <Spinner
+                android:id="@+id/act_statistics_spinner_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+                android:prompt="@string/act_statistics_endPoint"
+
+                android:layout_below="@id/act_statistics_spinner_from"
+                android:layout_alignLeft="@id/act_statistics_spinner_from"
+                android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/act_statistics_chart"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../abs/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/../abs/actionbarsherlock/actionbarsherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google-play-services-lib/google-play-services-lib.iml" filepath="$PROJECT_DIR$/google-play-services-lib/google-play-services-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sgaget.iml" filepath="$PROJECT_DIR$/sgaget.iml" />
+    </modules>
+  </component>
+</project>
+

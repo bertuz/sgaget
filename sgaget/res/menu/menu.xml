@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/actionbar_send_trackrecords"
+          android:title="Invio tragitti completati"
+          android:showAsAction="always"
+          android:icon="@drawable/send_data"/>
+
+    <item android:id="@+id/actionbar_statistics"
+          android:title="Statistiche degli spostamenti"
+          android:showAsAction="always"
+          android:icon="@drawable/i_chart"/>
+
+    <item android:id="@+id/actionbar_sort_button"
+          android:title="Ordina lista"
+          android:icon="@drawable/i_sort_by"
+          android:showAsAction="always"
+          android:visible="false">
+        <menu >
+            <group android:id="@+id/group_sort" android:checkableBehavior="single">
+                <item android:id="@+id/actionbar_sort_first_new" android:title="recenti in alto" />
+                <item android:id="@+id/actionbar_sort_first_old" android:title="recenti in fondo" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/actionbar_settings"
+          android:title="Impostazioni"
+          android:showAsAction="ifRoom"
+          android:icon="@drawable/settings"/>
+</menu>

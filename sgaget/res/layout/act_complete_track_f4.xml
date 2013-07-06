@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+        <TextView
+            android:text="Condizioni traffico:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+        <RatingBar
+                android:id="@+id/act_complete_track_f4_rating_traffico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="1.0"
+                android:stepSize="1.0"/>
+
+        <TextView
+                android:text="Qualità del percorso:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+        <RatingBar
+                android:id="@+id/act_complete_track_f4_rating_qualita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="1.0"
+                android:numStars="5"
+                android:stepSize="1.0"/>
+        <CheckBox
+                android:id="@+id/act_complete_track_f4_isFestive"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tragitto in giorno festivo"/>
+        <TextView
+                android:text="Segnala peculiarità:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+        <EditText
+                android:id="@+id/act_complete_track_f4_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

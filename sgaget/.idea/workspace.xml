@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="CUSTOM_SCOPE_NAME" value="Selected Files" />
+  </component>
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="deb" />
+        <option name="name" value="debug" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="^debugCheck$" />
+        <option name="name" value="CHECK" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="^lifecycle$" />
+        <option name="name" value="lifecycle" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="debugDB" />
+        <option name="name" value="debugDB" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="receiverDebug" />
+        <option name="name" value="receiverDebug" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="trackComplete" />
+        <option name="name" value="trackComplete" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="tracciamento" />
+        <option name="name" value="tracciamento" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="^locatorDebug$" />
+        <option name="name" value="locatorDebug" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="trackDEBUG" />
+        <option name="name" value="trackDEBUG" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="debugTaskFragment" />
+        <option name="name" value="debugTaskFragment" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="2.7in QVGA" />
+        <option name="deviceConfiguration" value="Portrait" />
+        <option name="localeLanguage" value="en" />
+        <option name="targetHashString" value="android-10" />
+        <option name="theme" value="Theme.Sherlock.Light" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="device" value="2.7in QVGA" />
+        <option name="dockMode" value="" />
+        <option name="nightMode" value="notnight" />
+        <option name="targetHashString" value="android-17" />
+        <option name="theme" value="Theme.Sherlock.Light" />
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+    <device-configurations>
+      <entry key="file://$PROJECT_DIR$/res/layout-land/act_complete_track_f2.xml" value="Portrait" />
+      <entry key="file://$PROJECT_DIR$/res/layout-land/act_welcome.xml" value="Portrait" />
+    </device-configurations>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sgaget" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/data/MySQLiteHelper.java" line="15" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f87de54f-03da-4944-9894-59d20df1c1ec" name="Default" comment="" />
+    <ignored path="sgaget.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/.idea/encodings.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369065721061" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/uiDesigner.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369065721061" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369065721061" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369065721061" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369065721061" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/modules.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369065721061" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369065721061" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369065721061" ignored="false" />
+    <file path="/MyApplication.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372034306164" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371567148505" ignored="false" />
+    <file path="/strings.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371691663095" ignored="false" />
+    <file path="/Welcome.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423755854" ignored="false" />
+    <file path="/Home.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371409651590" ignored="false" />
+    <file path="/Dummy.txt" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371658675212" ignored="false" />
+    <file path="/main.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371141317638" ignored="false" />
+    <file path="/Main.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369921001714" ignored="false" />
+    <file path="$PROJECT_DIR$/../../02-05/progetti/sensor-revisionato/src/com/example/sensor/Locator2.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369092177323" ignored="false" />
+    <file path="/Locator2.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369092172947" ignored="false" />
+    <file path="$PROJECT_DIR$/../../02-05/progetti/sensor-revisionato/.idea/workspace.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369092782918" ignored="false" />
+    <file path="$PROJECT_DIR$/../../02-05/progetti/sensor-revisionato/src/com/example/sensor/MyActivity2.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369092139684" ignored="false" />
+    <file path="/background_repeat.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369363671617" ignored="false" />
+    <file path="/AppPreferences.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372025381979" ignored="false" />
+    <file path="/menu.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371176128149" ignored="false" />
+    <file path="/home.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369417167841" ignored="false" />
+    <file path="/GifMovieView.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369250838041" ignored="false" />
+    <file path="/button_grad.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369257223439" ignored="false" />
+    <file path="/styles.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371049022868" ignored="false" />
+    <file path="$PROJECT_DIR$/../../02-05/progetti/sensor-revisionato/gen/com/example/sensor/R.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369327353994" ignored="false" />
+    <file path="$PROJECT_DIR$/../../02-05/progetti/sensor-revisionato/gen/com/example/sensor/BuildConfig.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369327353994" ignored="false" />
+    <file path="$PROJECT_DIR$/../../02-05/progetti/sensor-revisionato/gen/com/example/sensor/Manifest.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369327353994" ignored="false" />
+    <file path="/a.dummy" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371607380035" ignored="false" />
+    <file path="/HotpointsNearby.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370184465808" ignored="false" />
+    <file path="/Locator.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372026587420" ignored="false" />
+    <file path="/TrackingStopped.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369586375117" ignored="false" />
+    <file path="/TabTragitto.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423773404" ignored="false" />
+    <file path="/TabCompletare.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423785309" ignored="false" />
+    <file path="/tab_tragitto.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371480926176" ignored="false" />
+    <file path="/tab_completare.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370358748308" ignored="false" />
+    <file path="/Prova.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370540729448" ignored="false" />
+    <file path="/fragment.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371494875102" ignored="false" />
+    <file path="/MyPagerAdapter.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423749356" ignored="false" />
+    <file path="/TabTragittoPersistence.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369496511762" ignored="false" />
+    <file path="/FragmentPersistence.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369520430856" ignored="false" />
+    <file path="/Time.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369503302105" ignored="false" />
+    <file path="/MyTimer.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369514886887" ignored="false" />
+    <file path="/MyTimerTask.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423980040" ignored="false" />
+    <file path="/WebHotpointsDAO.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369578169239" ignored="false" />
+    <file path="/WebHotpointsHTTPTextFile.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372024597021" ignored="false" />
+    <file path="/LocatorControl.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369584995469" ignored="false" />
+    <file path="/EnableTracking.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369585283568" ignored="false" />
+    <file path="/TrackingStatus.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370184439043" ignored="false" />
+    <file path="/Tracking.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369859530042" ignored="false" />
+    <file path="/LocatorException.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369673363115" ignored="false" />
+    <file path="/ServiceBound.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369699668848" ignored="false" />
+    <file path="/BoundControl.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370184484343" ignored="false" />
+    <file path="/ServiceBoundReceiver.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369711846126" ignored="false" />
+    <file path="/Prova2.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369764811673" ignored="false" />
+    <file path="/MySQLiteHelper.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372024507837" ignored="false" />
+    <file path="/LocalHotpointsDB.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372024453911" ignored="false" />
+    <file path="/LocalHotpointsDAO.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369868396639" ignored="false" />
+    <file path="/TrackingCompleted.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370388099397" ignored="false" />
+    <file path="/tracking_completed.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370370252733" ignored="false" />
+    <file path="/HotpointsManager.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1369851335005" ignored="false" />
+    <file path="/ServiceTracking.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372108094230" ignored="false" />
+    <file path="/TrackingControl.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370184499484" ignored="false" />
+    <file path="/prova.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370540669714" ignored="false" />
+    <file path="/background_cars.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370025358336" ignored="false" />
+    <file path="/ReceiverWiFiChanged.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372026365175" ignored="false" />
+    <file path="/ControlReceiverWiFiChanged.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370128810665" ignored="false" />
+    <file path="/grad_gray.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370204527689" ignored="false" />
+    <file path="/TrackingRecord.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370218151198" ignored="false" />
+    <file path="/CandidateStartEnd.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370563196017" ignored="false" />
+    <file path="/TrackRecordDAO.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371216230329" ignored="false" />
+    <file path="/TrackRecordDB.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372033600584" ignored="false" />
+    <file path="/TrackRecord.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372024138387" ignored="false" />
+    <file path="/ActivityCompleteTrack.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371422328053" ignored="false" />
+    <file path="/ArrayAdapterTrackingCompleted.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372027565615" ignored="false" />
+    <file path="/item_track_to_complete.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370359333827" ignored="false" />
+    <file path="/item_track_to_complete_button_track.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370358043737" ignored="false" />
+    <file path="/TrackrecordManagement.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370363755457" ignored="false" />
+    <file path="/CompleteTrackrecordManagement.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370383943037" ignored="false" />
+    <file path="/ReceiverNewTrackRecordToComplete.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372026050809" ignored="false" />
+    <file path="/ControlReceiverNewTrackRecordToComplete.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370801758263" ignored="false" />
+    <file path="/act_complete_track.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370626903234" ignored="false" />
+    <file path="/ActivityCompleteF1.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370482192911" ignored="false" />
+    <file path="/act_complete_track_F1.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370451302913" ignored="false" />
+    <file path="/act_complete_track_f1.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371518170229" ignored="false" />
+    <file path="/ActivityCompleteF4.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370459189243" ignored="false" />
+    <file path="/ActivityCompleteFragmentComm.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370480601315" ignored="false" />
+    <file path="/ActivityCompleteF2.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370463450704" ignored="false" />
+    <file path="/MyAlertDialogFragment.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371261651641" ignored="false" />
+    <file path="/ActivityCompleteComm.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370480643160" ignored="false" />
+    <file path="/F2Complete.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423875494" ignored="false" />
+    <file path="/F3Complete.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423889544" ignored="false" />
+    <file path="/F4Complete.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423896319" ignored="false" />
+    <file path="/F1Complete.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423865961" ignored="false" />
+    <file path="/ActivityTrackingCompleted.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371264025653" ignored="false" />
+    <file path="/HotpointCandidate.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372024046999" ignored="false" />
+    <file path="/ToCompleteTrackrecordManagement.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370568241297" ignored="false" />
+    <file path="/act_complete_track_f2.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370630966830" ignored="false" />
+    <file path="/F1CompleteI.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370662161072" ignored="false" />
+    <file path="/map_properties.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370704783713" ignored="false" />
+    <file path="/LastUpdateTimeout.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372026536567" ignored="false" />
+    <file path="/ListMenuItemView.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370707823602" ignored="false" />
+    <file path="/act_complete_track_f3.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371175747173" ignored="false" />
+    <file path="/item_altro.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370711121473" ignored="false" />
+    <file path="/IFragmentComplete.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371424131153" ignored="false" />
+    <file path="/act_complete_track_f4.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370999695919" ignored="false" />
+    <file path="/ITabComplete.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371424177090" ignored="false" />
+    <file path="/RetainTabsFragment.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423805588" ignored="false" />
+    <file path="/ITabsComm.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371424027032" ignored="false" />
+    <file path="$USER_HOME$/Desktop/FormSender/AndroidManifest.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370807139349" ignored="false" />
+    <file path="$USER_HOME$/Desktop/FormSender/.idea/workspace.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370830405105" ignored="false" />
+    <file path="$USER_HOME$/Desktop/FormSender/src/com/example/FormSender/MyActivity.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370968066753" ignored="false" />
+    <file path="/MyActivity.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371146653752" ignored="false" />
+    <file path="/DialogUpdate.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370875145052" ignored="false" />
+    <file path="/SendTrackTaskFragment.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423856106" ignored="false" />
+    <file path="/DialogUpdateTrackRecords.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371602554206" ignored="false" />
+    <file path="/DialogErrorUpdateTrackRecords.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1370980931577" ignored="false" />
+    <file path="/ActivitySettings.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423649129" ignored="false" />
+    <file path="/prefs.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371691489728" ignored="false" />
+    <file path="/menu_preferences.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371130158444" ignored="false" />
+    <file path="/item_delete_db.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371050674700" ignored="false" />
+    <file path="/DialogError.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371053917773" ignored="false" />
+    <file path="/ReceiverDBDeleted.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371083601919" ignored="false" />
+    <file path="/ControlReceiverDNDeleted.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371083593650" ignored="false" />
+    <file path="$USER_HOME$/Desktop/grafici/res/values/strings.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371134903257" ignored="false" />
+    <file path="$USER_HOME$/Desktop/grafici/AndroidManifest.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371138546682" ignored="false" />
+    <file path="$USER_HOME$/Desktop/grafici/build.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371134903683" ignored="false" />
+    <file path="$USER_HOME$/Desktop/grafici/res/layout/main.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371141318094" ignored="false" />
+    <file path="$USER_HOME$/Desktop/grafici/src/com/example/grafici/MyActivity.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371146653752" ignored="false" />
+    <file path="$USER_HOME$/Desktop/grafici/src/com/example/grafici/BarGraph.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371139884877" ignored="false" />
+    <file path="/BarGraph.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371139879751" ignored="false" />
+    <file path="$USER_HOME$/Desktop/grafici/gen/com/example/grafici/BuildConfig.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371138578878" ignored="false" />
+    <file path="/FinishHotpointsForStart.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372025000856" ignored="false" />
+    <file path="/TransportationStatistics.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372024187129" ignored="false" />
+    <file path="/NameConventions.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371174606221" ignored="false" />
+    <file path="/ActivityStatistics.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371257074116" ignored="false" />
+    <file path="/act_statistics.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371482328380" ignored="false" />
+    <file path="/ChartEngine.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372025051876" ignored="false" />
+    <file path="/UtilityFunctions.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372025441038" ignored="false" />
+    <file path="/RetainActivityChartsFragment.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371423935812" ignored="false" />
+    <file path="/ActivityCharts.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371416227463" ignored="false" />
+    <file path="/DialogInfo.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372024904074" ignored="false" />
+    <file path="/menu_statistics.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371301587685" ignored="false" />
+    <file path="/ActCharts.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371560142133" ignored="false" />
+    <file path="/FTabAreeActHome.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371480087745" ignored="false" />
+    <file path="/RetainFragTabs.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371479728646" ignored="false" />
+    <file path="/ActHome.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372108182107" ignored="false" />
+    <file path="/tab_aree.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371480479243" ignored="false" />
+    <file path="/ReceiverHotpointsNearby.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372025855737" ignored="false" />
+    <file path="/ReceiverActions.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372025628712" ignored="false" />
+    <file path="/FTabTragittoActHome.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371557559289" ignored="false" />
+    <file path="/ActTrackingCompleted.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371998974101" ignored="false" />
+    <file path="/FTabCompletareActHome.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372028585286" ignored="false" />
+    <file path="/ActCompleteTrack.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372027165080" ignored="false" />
+    <file path="/ReceiverTrackingStatus.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372026286154" ignored="false" />
+    <file path="/Groovy Console" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371488874245" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637284" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-strict.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637284" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637284" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xinclude.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xsl" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-1_0.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-2_0.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/xslt-schema.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/settings-1.0.0.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xml.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/profiles-1.0.0.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/catalog.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/html5/xhtml5.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497637285" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371497723700" ignored="false" />
+    <file path="/Frag1ActCompleteFragsCommTrack.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372027619087" ignored="false" />
+    <file path="/Frag2ActCompleteFragsCommTrack.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372010307922" ignored="false" />
+    <file path="/FTabSpostamentoActHome.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372028706549" ignored="false" />
+    <file path="/tab_spostamento.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371559779399" ignored="false" />
+    <file path="/FTabAreeInteresse.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371599850707" ignored="false" />
+    <file path="/tab_aree_interesse.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371595404907" ignored="false" />
+    <file path="/MyPagerAdapterActHome.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371577157053" ignored="false" />
+    <file path="/FTabPuntiTracciamento.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371658959185" ignored="false" />
+    <file path="/WaitDialog.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372025319908" ignored="false" />
+    <file path="/tab_punti_interesse.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371658278421" ignored="false" />
+    <file path="/popup_help_hotpoints.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371673433137" ignored="false" />
+    <file path="/DialogInfoHotpoints.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372024870126" ignored="false" />
+    <file path="/FTabPuntiInteresse.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372028608483" ignored="false" />
+    <file path="/dialog_help_hotpoints.xml" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1371692114975" ignored="false" />
+    <file path="/DialogSendTrackRecords.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372026985178" ignored="false" />
+    <file path="/Hotpoint.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372023986396" ignored="false" />
+    <file path="/DialogTimePicker.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372027035594" ignored="false" />
+    <file path="/Frag4ActCompleteFragsCommTrack.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372027673762" ignored="false" />
+    <file path="/FragTaskSendTrack.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372031264723" ignored="false" />
+    <file path="/RetainFragActCharts.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372028806045" ignored="false" />
+    <file path="/StatisticsDAO.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372030824009" ignored="false" />
+    <file path="/StatisticsGoogleDocs.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372031239700" ignored="false" />
+    <file path="/ActWelcome.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372100589856" ignored="false" />
+    <file path="/DialogExit.java" changelist="f87de54f-03da-4944-9894-59d20df1c1ec" time="1372108627305" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sgaget" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ActHome.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/ActHome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="654" column="4" selection-start="27029" selection-end="27029" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceTracking.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/service/ServiceTracking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="172" column="26" selection-start="5734" selection-end="5734" vertical-scroll-proportion="-20.4">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChartEngine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/charts/ChartEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="13" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActCharts.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/ActCharts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="68" selection-start="2522" selection-end="2795" vertical-scroll-proportion="-9.4">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActCompleteTrack.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/ActCompleteTrack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="0" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActWelcome.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/ActWelcome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="90" selection-start="3990" selection-end="3990" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/dialogs/DialogInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="0" selection-end="2524" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogExit.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/dialogs/DialogExit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="31" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.1907357">
+              <folding>
+                <element signature="e#1232#1489#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="e#1539#1700#0" expanded="true" />
+                <element signature="e#1689#1690#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/helper/MyApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="76" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrackRecordDB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/data/TrackRecordDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="130" column="80" selection-start="5293" selection-end="5293" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../sgagetKeystore.keystore" />
+    <option name="KEY_ALIAS" value="sgaget" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/res/layout/home.xml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/res/layout-land/act_welcome.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/IActHomeFragTabCompletareComm.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/IActCompleteFragsComm.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/IFragActHomeComm.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/MyPagerAdapterActHome.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/MyTimerTaskFTabSpostamento.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/RetainFragActCharts.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/data/StatisticsDAO.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/data/TrackRecordStatisticsDAO.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/data/StatisticsGoogleDocs.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/data/TrackRecordDB.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/helper/MyApplication.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/FragTaskSendTrack.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/ActWelcome.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/service/ServiceTracking.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/ActHome.java" />
+        <option value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/dialogs/DialogExit.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org/altervista/bertuz83/sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org/altervista/bertuz83/sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dialogs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org/altervista/bertuz83/sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="data">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org/altervista/bertuz83/sgaget">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgaget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgaget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgaget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgaget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgaget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgaget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgaget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgaget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actionbarsherlock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actionbarsherlock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgaget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actionbarsherlock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="ExportedApkPath" value="$PROJECT_DIR$/" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="ExportedModule" value="sgaget" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sgagetKeystore.keystore" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sgagetp" />
+    <property name="GoToClass.includeJavaFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="samsunggalaxy1" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/business" />
+    <property name="AndroidIncludeSystemProguardFile" value="false" />
+    <property name="AndroidProguardConfigPath" value="$PROJECT_DIR$/proguard-project.txt" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="project.structure.side.proportion" value="0.22427984" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="35333BEF263000EC" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="Groovy.Shell.LastModule" value="sgaget" />
+    <property name="AndroidRunProguardForReleaseBuild" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/drawable-mdpi" />
+      <recent name="$PROJECT_DIR$/res/layout-land" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.altervista.bertuz83.sgaget" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/drawable-mdpi" />
+      <recent name="$PROJECT_DIR$/res" />
+      <recent name="$PROJECT_DIR$/res/drawable-xhdpi" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.altervista.bertuz83.sgaget" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.sgaget">
+    <configuration default="false" name="ActivitySettings" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
+      <module name="sgaget" />
+      <option name="ACTIVITY_CLASS" value="org.altervista.bertuz83.sgaget.ActPreferences" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sgaget" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="sgaget" />
+      <option name="ACTIVITY_CLASS" value="org.altervista.bertuz83.sgaget.ActHome" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.sgaget" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.ActivitySettings" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Android Application.ActivitySettings" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StatisticProjectComponent">
+    <option name="excludeCompilerOutput" value="true" />
+    <option name="excludeIdea9ArtifactDirectory" value="true" />
+    <option name="excludeTargetDirectories" value="true" />
+    <option name="activateWhenOpenProject" value="true" />
+    <option name="excludedDirectories">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="fileTypes" value="class;svn-base;svn-work;Extra;gif;png;jpg;jpeg;bmp;tga;tiff;ear;war;zip;jar;iml;iws;ipr;bz2;gz;" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f87de54f-03da-4944-9894-59d20df1c1ec" name="Default" comment="" />
+      <created>1369065679642</created>
+      <updated>1369065679642</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2869318" sideWeight="0.8646678" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4045584" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2869318" sideWeight="0.13533226" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45156696" sideWeight="0.5453809" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36752138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29092383" sideWeight="0.6666667" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33549434" sideWeight="0.5609756" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.40032414" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2917342" sideWeight="0.66381764" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33618233" sideWeight="0.5235008" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23014587" sideWeight="0.5811966" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5811966" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42735043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35365853" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/MyTimerTaskFTabSpostamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/data/TrackRecordDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/IActCompleteFragsComm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="140" selection-end="140" vertical-scroll-proportion="0.13574661">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/FragTaskSendTrack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="76" selection-start="4261" selection-end="4261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/data/TrackRecordStatisticsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/data/StatisticsGoogleDocs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="38" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/helper/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="76" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/data/TrackRecordDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="80" selection-start="5293" selection-end="5293" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/ActWelcome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="90" selection-start="3990" selection-end="3990" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/dialogs/DialogInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="0" selection-end="2524" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/ActCompleteTrack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="0" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/ActCharts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="68" selection-start="2522" selection-end="2795" vertical-scroll-proportion="-9.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/charts/ChartEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="13" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/service/ServiceTracking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="26" selection-start="5734" selection-end="5734" vertical-scroll-proportion="-20.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/ActHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="654" column="4" selection-start="27029" selection-end="27029" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/altervista/bertuz83/sgaget/dialogs/DialogExit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="31" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.1907357">
+          <folding>
+            <element signature="e#1232#1489#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1539#1700#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>sgaget</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22427984" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android (google-play-services-lib)|Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22427984" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22427984" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android|sgaget</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22427984" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2925" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22427984" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
